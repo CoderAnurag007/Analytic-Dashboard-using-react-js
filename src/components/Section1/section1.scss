@@ -1,0 +1,538 @@
+.section1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 223, 250);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+        
+    
+    .section1-analytic{
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        margin-top: -7px;
+        
+        .cardtags{
+            width: 96%;
+           min-height: 75px;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 10px;
+           justify-content: space-between;
+            flex-direction: row;
+            margin: auto;
+            .card{
+                width: 30%;
+                margin: 10px 0px;
+                height: 70px;
+                background-color: white;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .detail{
+                    width: 45%;
+                    height: 95%;
+                    border-radius: 8px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .detailimg{
+                        width: 40%;
+                        height: 80%;
+                        margin-left: 10px;
+                        background-color: blueviolet;
+                        border-radius: 8px;
+                    }
+                    .revenuebox{
+                        width: 40%;
+                        height: 80%;
+                        font-size: 0.8rem;
+                    }
+
+                }
+                .status-pro{
+                    width: 17%;
+                    height: 20%;
+                    background-color: rgba(85, 255, 0 , 0.3);
+                    font-size: smaller;
+                    margin-top: 45px;
+                    margin-right: 5px;
+                    border-radius: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+
+
+                    
+                }
+                .status-low{
+                    width: 17%;
+                    height: 20%;
+                    background-color: rgba(255, 0, 0, 0.3);
+                    font-size: smaller;
+                    margin-top: 45px;
+                    margin-right: 5px;
+                    border-radius: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+                }
+            }
+           
+        }
+        @media (max-width:999px){
+              .cardtags{
+                justify-content: space-evenly;
+                .card{
+                    width: 48%;
+                    margin: 0;
+                   
+                    .status{
+                        width: 13%;
+                        height: 17%;
+                        font-size: 0.5rem;
+                    }
+                }
+              }
+          
+          
+        }  
+        @media (max-width:571px){
+.cardtags{
+    // width: 100%;
+
+    .card{
+        width: 100%;
+       
+    }
+}
+        }
+    }
+    
+
+    .section1-profile{
+        width: 25%;
+        height: 92%;
+        margin-top: 3px;
+    }
+}
+
+
+
+// Graph Box css
+.graphmainbox{
+    width: 94%;
+    min-height: 280px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .graph-head-section{
+         width: 98%;
+        display: flex;
+        justify-content: space-between;
+        font-size: small;
+        margin: auto;
+        
+        .sortby{
+            font-weight: bold;
+        }
+    }
+
+    .graph-content-box{
+        width: 100%;
+        height: 92%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+
+        .graphtext{
+            width: 25%;
+            height: 100%;
+            .thismonth{
+                width: 100%;
+                height: 50px;
+                margin-left: 10px;
+            
+                .month{
+                    font-size: 0.7rem;
+                    font-weight: light;
+                    span{
+                        display: inline-block;
+                    }
+
+                }
+                .pricebox{
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .status-pro{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 20px;
+                        width: 40px;
+                        font-size: smaller;
+                        background-color: rgba(47, 255, 57,0.3);
+                        font-size: 0.7rem;
+                        border-radius: 8px;
+                    }
+                   
+                }
+            }
+            .otherdata{
+                width: 100%;
+                height: 78%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+                .card{
+width: 80px;
+height: 60px;
+
+.text{
+    font-size: small;
+    color: grey;
+}
+
+.value{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+                }
+            }
+        }
+        .graphimage{
+width: 74%;
+height: 230px;
+background: url('../../images/Screenshot 2022-08-06 at 8.36.43 PM.png');
+background-size: cover;
+background-position: center;
+        }
+    }
+
+    @media(max-width:970px){
+.graph-content-box{
+    .graphtext{
+        width: 30%;
+    }
+    .graphimage{
+width: 69%;
+    }
+}
+    }
+    @media (max-width:800px) {
+        .graph-content-box{
+            .graphtext{
+                width: 100%;
+            }
+            .graphimage{
+                width: 100%;
+            }
+
+        }
+    }
+}
+
+// Big Card;
+
+.bigcards{
+    width: 96%;
+    min-height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    // row-gap: 10px;
+    margin: auto;
+    .bigcard{
+        margin: 10px;
+        width: 30%;
+        height: 240px;
+        background-color: white;
+        border-radius: 8px;
+        .products-shell{
+            width: 100%;
+            height: 90%;
+            .product{
+                margin:20px auto ;
+                width: 96%;
+                height: 30px;
+                display: flex;
+                justify-content: space-between;
+                .left{
+                    display: flex;
+                    width: 60%;
+                    justify-content: space-between;
+                    .no-box{
+                        background-color: blueviolet;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-weight: bold;
+                        width: 20%;
+                        border-radius: 4px;
+                        
+                        
+
+                    }
+                    .text-box{
+                        width: 70%;
+                        font-size: small;
+
+                    }
+                }
+            }
+        }
+        .headtext{
+            display: flex;
+            width: 96%;
+            margin: auto;
+            justify-content: space-between;
+            align-items: center;
+            .monthly{
+                font-size: 0.7rem;
+                color: grey;
+            }
+            .order{
+                font-size: small;
+            }
+
+            .user{
+                font-size: small;
+
+            }
+            .weekly{
+                font-size: 0.7rem;
+                color: grey;
+            }
+        }
+        .monthbox{
+            margin-left: 10px;
+            margin-top: 10px;
+            .txt{
+                font-size: small;
+                color: grey;
+            }
+            .value{
+                font-weight: 600;
+            }
+        }
+    }
+
+  .imgbox{
+    width: 98%;
+    height: 70%;
+   
+    background: url('../../images/curve.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .imgbox2{
+    width: 98%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../images/circle.png');
+    background-size: cover;
+    background-position: top;
+  }
+  @media (max-width:880px){
+    
+        .bigcard{
+            width: 45%;
+        }
+    }
+
+    @media (max-width:600px){
+        .bigcard{
+            width: 100%;
+        }
+    }
+  
+}
+
+// css for profile 
+
+
+
+.section1-profile{
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: white;
+    width: 30%;
+   
+ 
+    
+    
+    .profile-back{
+        width: 100%;
+        height: 100px;
+        background: url('../../images/backimage.jpg');
+        background-size: cover;
+        border-top-left-radius:8px;
+        border-top-right-radius:8px;
+        
+
+    }
+    .profile-front{
+        width: 100px;
+        height: 100px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 50%;
+      
+        margin: auto;
+        margin-top: -30px;
+        background: url('../../images/profile-front.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .profile-detail{
+        width: 140px;
+
+height: 40px;
+margin:  auto ;
+position: relative;
+text-align: center;
+
+.profilename{
+font-weight: bold;
+}
+.occupation{
+    font-size: small;
+}
+
+    }
+.audience{
+        width: 80%;
+        margin: auto;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .field{
+            .fieldtext{
+                font-size: small;
+                color: rgb(35, 34, 33);
+            }
+        }
+        .field-divider{
+           transform: rotate(90deg);
+            border: 1px solid rgb(223, 222, 250);
+            width: 50px;
+        }
+    }
+
+    .audience-underline{
+        border: 1px solid rgb(223, 222, 250);
+        width: 90%;
+        background-color: rgb(223, 222, 250);
+    }
+    .profile-earning-container{
+
+    
+    .profile-earning{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .info-icon{
+            img{
+                width: 15px;
+            height: 15px;
+            }
+        }
+    }
+    .earning-graph-image{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       img{
+        width: 200px;
+        height: 120px;
+       }
+    }
+
+}
+.recent-activity{
+width: 100%;
+height: 164px;
+.recent-heading{
+    margin-left: 20px;
+    font-size: small;
+}
+.recent-cards{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .recent-card{
+        width: 80%;
+        margin: auto;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        .datebox{
+            width: 40px;
+            height: 40px;
+            margin:  auto 0px;
+            background-color: rgb(223, 222, 250);
+         font-size: smaller;
+            border-radius: 4px;
+            text-align: center;
+            .date{
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        .recent-text{
+            border-radius: 4px;
+            width: 160px;
+            height: 35px;
+            margin: auto 0px ;
+            background-color: rgb(240, 240, 250);
+            display: flex;
+            align-items: center;
+            font-size: 0.7rem;
+            padding: 0px 5px;
+            color: gray;
+        }
+    }
+}
+}
+
+
+}
+
+@media (max-width:800px){
+.section1{
+    flex-direction: column;
+
+.section1-profile{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}}
+}
+
