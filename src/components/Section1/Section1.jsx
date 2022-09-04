@@ -10,7 +10,9 @@ const Section1 = () => {
           <div className="cardtags container">
             <div className="card">
               <div className="detail">
-                <div className="detailimg"></div>
+                <div className="detailimg">
+                  <i class="fa-light fa-square-dollar"></i>
+                </div>
                 <div className="revenuebox">
                   Revenue <br /> $21,556
                 </div>

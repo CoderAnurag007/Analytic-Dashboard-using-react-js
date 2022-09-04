@@ -1,5 +1,6 @@
 {
   "name": "dashboard-app",
+  "homepage": "https://CoderAnurag007.github.io/react-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
