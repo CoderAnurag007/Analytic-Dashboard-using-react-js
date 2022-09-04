@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-dashboard/static/css/main.5c37d25b.css",
+    "main.js": "/react-dashboard/static/js/main.bc972dfb.js",
+    "static/js/787.92af229c.chunk.js": "/react-dashboard/static/js/787.92af229c.chunk.js",
+    "static/media/backimage.jpg": "/react-dashboard/static/media/backimage.42dce47114ac9d4cb98c.jpg",
+    "static/media/profile-front.jpg": "/react-dashboard/static/media/profile-front.c08fc25a27faea9bb055.jpg",
+    "static/media/Screenshot 2022-08-06 at 8.36.43 PM.png": "/react-dashboard/static/media/Screenshot 2022-08-06 at 8.36.43 PM.669dcab0b97040d5ede3.png",
+    "static/media/circle.png": "/react-dashboard/static/media/circle.3b4ba462a7cf8f88c98c.png",
+    "static/media/earningroundgraph.png": "/react-dashboard/static/media/earningroundgraph.6eda43a1af2b28bdcf81.png",
+    "static/media/curve.png": "/react-dashboard/static/media/curve.df04a9d4ed46be8c67a0.png",
+    "index.html": "/react-dashboard/index.html",
+    "main.5c37d25b.css.map": "/react-dashboard/static/css/main.5c37d25b.css.map",
+    "main.bc972dfb.js.map": "/react-dashboard/static/js/main.bc972dfb.js.map",
+    "787.92af229c.chunk.js.map": "/react-dashboard/static/js/787.92af229c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c37d25b.css",
+    "static/js/main.bc972dfb.js"
+  ]
+}
